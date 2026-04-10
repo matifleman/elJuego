@@ -7,12 +7,12 @@ package com.example;
     // private double dañoATierra;
     // private double dañoAAgua;
     // private double dañoAFuego;
-public class ElementoFuego extends Elemento{
+public class ElementoFuego implements Elemento{
     public String nombre;
 
 
     public ElementoFuego(String nombre){
-        super(nombre);
+        this.nombre = nombre;
     }
     
     public String getNombre(){

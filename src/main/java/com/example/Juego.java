@@ -28,6 +28,7 @@ public class Juego {
     public void repartirCartas(){
         jugador1.recibirCartas(new Carta(new ElementoAgua("Agua")));
         jugador2.recibirCartas(new Carta(new ElementoTierra("Tierra")));
+        System.out.println("Cartas repartidas");
     }
 
 
